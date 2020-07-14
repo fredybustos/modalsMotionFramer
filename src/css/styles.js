@@ -83,9 +83,34 @@ export const Button = styled.button`
   height: 50px;
   width: 250px;
   color: white;
+  cursor: pointer;
   font-size: 20px;
   margin-right: 20px;
   background-color: #61dafb;
-  border-radius: 35.5px 35.5px 0 35px;
+  border-radius: 35px 35px 0 35px;
+  box-shadow: 0 14px 44px 0 rgba(13, 73, 89, 0.33);
+`
+export const WrapperInput = styled.div`
+  margin-bottom: 1.5em;
+`
+
+export const Input = styled.input`
+  width: 94%;
+  border: 1px solid #efeff4;
+  padding: 1em;
+  font-sise: 16px;
+  border-radius: 35px;
+`
+
+export const SendButton = styled.button`
+  border: none;
+  height: 50px;
+  width: 250px;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  background-color: #111;
+  border-radius: 35px 35px 0 35px;
+  cursor: pointer;
   box-shadow: 0 14px 44px 0 rgba(13, 73, 89, 0.33);
 `

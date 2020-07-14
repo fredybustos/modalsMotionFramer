@@ -47,21 +47,21 @@ function App() {
         </Buttons>
       </header>
       <Modal openModal={openModal} onClose={hanldeCloseModal}>
-        <Login />
+        <Login onClose={hanldeCloseModal} />
       </Modal>
 
       <OtherModal
         openModal={openOtherModal}
         onClose={() => setOpenOtherModal(false)}
       >
-        <Login />
+        <Login onClose={() => setOpenOtherModal(false)} />
       </OtherModal>
 
       <UploadModal
         openModal={openUploadModal}
         onClose={() => setOpenUploadModal(false)}
       >
-        <Login />
+        <Login onClose={() => setOpenUploadModal(false)} />
       </UploadModal>
     </div>
   )
