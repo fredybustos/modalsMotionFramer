@@ -35,15 +35,9 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <Buttons>
-          <Button className='btn' onClick={handleOpenModal}>
-            CSSTransition
-          </Button>
-          <Button className='btn' onClick={handleOtherOpenModal}>
-            Motion framer
-          </Button>
-          <Button className='btn' onClick={handleUploadModal}>
-            Upload Modal
-          </Button>
+          <Button onClick={handleOpenModal}>CSSTransition</Button>
+          <Button onClick={handleOtherOpenModal}>Motion framer</Button>
+          <Button onClick={handleUploadModal}>Upload Modal</Button>
         </Buttons>
       </header>
       <Modal openModal={openModal} onClose={hanldeCloseModal}>

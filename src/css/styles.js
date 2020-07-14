@@ -69,6 +69,7 @@ export const Close = styled.button`
   height: 36px;
   border-radius: 50%;
   margin-bottom: 20px;
+  cursor: pointer;
 `
 
 export const Buttons = styled.div`
